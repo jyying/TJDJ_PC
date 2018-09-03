@@ -1,0 +1,13 @@
+.BattleLine .ant-form-item{
+    margin-bottom: 0;
+}
+.BattleLine{
+    margin-top: 10px;
+}
+.BattleLine .ant-form-item-label{
+    text-align: left;
+    width: 70px;
+}
+.empAdjustments label{
+    font-weight: 600;
+}

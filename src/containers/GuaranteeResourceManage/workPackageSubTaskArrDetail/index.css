@@ -1,0 +1,28 @@
+.tableTitle .ant-table-title{
+    text-align: left;
+}
+.btn_reload{
+    color:#108ee9;
+    border-color:#108ee9
+}
+.ant-modal-title{
+    text-align: center;
+    color:#108ee9 ;
+}
+div.tab,div.tab_col{
+    display: inline-block;
+    width: 16.6%;
+}
+
+div.tab_data{
+    width: 16.6%;
+    display: inline-block;
+}
+div.tab_col p{
+    text-align: center;
+    background-color: yellow;
+
+}
+div.tab_row{
+    border: 1px solid #e9e9e9;
+}

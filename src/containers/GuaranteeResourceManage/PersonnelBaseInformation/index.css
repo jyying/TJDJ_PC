@@ -1,0 +1,12 @@
+form.search {
+    padding: 12px 6px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.content .ant-modal-content{
+    width: 900px;
+}
+.tableTitle .ant-table-title{
+    text-align: left;
+}

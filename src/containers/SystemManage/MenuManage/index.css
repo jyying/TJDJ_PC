@@ -1,0 +1,8 @@
+/*菜单页面按钮*/
+.rightsMation span {
+    pointer-events: none;
+}
+
+.modal-menu .ant-modal-footer {
+    overflow: hidden;
+}

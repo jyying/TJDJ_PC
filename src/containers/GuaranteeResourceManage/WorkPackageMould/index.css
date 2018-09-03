@@ -1,0 +1,23 @@
+.work-package {
+    position: relative;
+}
+.work-add {
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+span.warning {
+    color:#ef5120;
+}
+.ant-table-title{
+    padding: 0;
+}
+.ant-table-title .title{
+    padding:0 0 40px 0;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display:table-cell;
+}

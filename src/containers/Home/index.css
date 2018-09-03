@@ -1,0 +1,11 @@
+.index_bg{
+    background: url("../../../static/images/index.png") no-repeat center;
+    width: 100%;
+}
+.welcome{
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}

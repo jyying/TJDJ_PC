@@ -1,0 +1,35 @@
+.work-package {
+    position: relative;
+}
+.work-add {
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+span.warning {
+    color:#ef5120;
+}
+.ant-table-title{
+    padding: 0;
+}
+.ant-table-title .title{
+    padding:0 0 40px 0;
+    text-align: left;
+}
+.title span{
+    margin-right: 15px;
+}
+.table table{
+    table-layout: fixed;
+}
+td.table_workInfo>div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+tr.ant-table-row.RED{
+    background-color: #ffe8e8;
+}
+tr.ant-table-row.GREEN{
+    background-color: #fbf5df;
+}

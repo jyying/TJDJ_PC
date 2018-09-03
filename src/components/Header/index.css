@@ -1,0 +1,60 @@
+.positionA {
+    position: absolute;
+}
+.ant-layout-header {
+    height:80px;
+    line-height: 80px;
+}
+
+.header-icon {
+    margin: 0 15px;
+    font-size: 20px;
+}
+.comp_header {
+    border-bottom:solid #e6e6e6 1px;
+}
+.comp_header .ant-layout-header{
+    background-color: white;
+    padding: 0 25px;
+}
+.header_logo h1 {
+    display: none;
+}
+.header_logo p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+}
+
+.userAction {
+    font-size:16px;
+    right:0;
+    top:0;
+    overflow: hidden;
+}
+
+.userInfo {
+    position: relative;
+    min-width: 150px;
+    padding:0 24px 0 50px;
+}
+
+.out,.userInfo  {
+    position: relative;
+    float:left;
+}
+
+.out {
+    font-size: 14px;
+    color:#333;
+    width: 104px;
+    padding-left: 48px;
+    border-left:solid #e6e6e6 1px;
+}
+.out i {
+    position: absolute;
+    left: 16px;
+    top: 29px;
+    width: 24px;
+    height: 24px;
+}

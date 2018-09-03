@@ -1,0 +1,11 @@
+.emplook{
+    padding: 0 10px;
+}
+.table table{
+    table-layout: fixed;
+}
+td.table_workInfo>div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

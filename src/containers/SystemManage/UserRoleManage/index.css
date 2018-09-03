@@ -1,0 +1,49 @@
+/*搜索框表单*/
+.input{
+    height:32px;
+    margin-bottom: 24px;
+}
+.input_left{
+    width:25%;
+    height:32px;
+    line-height: 32px;
+    float: left;
+    text-align: right;
+}
+.input_right{
+    width:75%;
+    height:32px;
+    float: left;
+}
+.input_right input{
+    height:30px;
+    width:80%;
+    line-height:30px;
+    text-indent: .05rem;
+    background: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+.ant-table{
+    overflow: visible;
+}
+.dynamic-delete-button {
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    font-size: 24px;
+    color: #999;
+    transition: all .3s;
+}
+.dynamic-delete-button:hover {
+    color: #777;
+}
+.dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+button.ant-btn.ant-btn-dashed.ant-btn-lg{
+    float: left !important;
+    margin-left: 0 !important;
+}

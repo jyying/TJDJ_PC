@@ -1,0 +1,11 @@
+
+tr.ant-table-row.red{
+    color: red;
+}
+tr.ant-table-row.black{
+    color: black;
+}
+tr.ant-table-row.pink{
+    background-color: pink;
+    color: black;
+}

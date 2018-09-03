@@ -1,0 +1,10 @@
+.infos td
+{
+    text-align:left;
+    width:80%;
+}
+.infos th
+{
+    text-align:left;
+    width:20%;
+}

@@ -1,0 +1,33 @@
+.tableTitle .ant-table-title{
+    text-align: left;
+}
+.btn_reload{
+    color:#108ee9;
+    border-color:#108ee9
+}
+.ant-modal-title{
+    text-align: center;
+    color:#108ee9 ;
+}
+
+.content_table1 table,.content_table1 caption{
+    border: 1px solid #e9e9e9;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.content_table1 thead tr th,.content_table1 tbody tr td{
+    border: 1px solid #e9e9e9;
+    width: 10%;
+    padding: 10px 8px;
+}
+.content_table1 thead tr th{
+    background: #f7f7f7;
+}
+.content_table1 caption{
+    font-size: 18px;
+    border-bottom: none;
+}
+.ChangeList{
+    border: 1px solid #e9e9e9;
+}

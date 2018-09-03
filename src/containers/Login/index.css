@@ -1,0 +1,148 @@
+/*修改登陆*/
+.bg {
+    overflow: hidden;
+    height: 100%;
+    background: url("../../../static/images/bg.png") no-repeat;
+    display:flex;
+    align-items:center;
+}
+.loginContainer {
+    width: 386px;
+    margin:0 auto;
+}
+.loginContainer .ant-input-affix-wrapper .ant-input:not(:first-child),.loginContainer .ant-input {
+    font-size: 16px;
+    padding-left:50px;
+    border: none;
+    border-radius: 0;
+    color: #666666;
+}
+.loginContainer .ant-input {
+    padding-left: 10px;
+    height:42px;
+    line-height: 42px;
+}
+.loginInput {
+    overflow: hidden;
+    margin-top:20px;
+    padding:34px 32px 30px;
+    background: rgba(234, 243, 255,.2);
+    box-shadow: 0px 4px 10px 0px rgba(7, 16, 49, 0.51);
+    border-radius: 2px;
+}
+.logo {
+    width:306px;
+    height:88px;
+    margin:0 auto;
+    background: url("../../../static/images/logo.png") no-repeat;
+    background-size: 100%;
+}
+/*首页*/
+.index.logo {
+    width: 175px;
+    height: 50px;
+    margin: 0 0 33px 41px;
+    background: url("../../../static/images/_logo.png") no-repeat;
+    background-size: 100%;
+    transition-delay: .1s;
+    cursor: pointer;
+}
+.loginInput .ant-form-item.input {
+    margin-bottom: 20px;
+    height: auto;
+}
+.loginInput .remember .ant-form-item-control{
+    line-height: 18px;
+}
+.loginInput .ant-form-item {
+    margin-bottom: 0;
+}
+.loginInput .ant-input-lg {
+    height:42px;
+    line-height:42px;
+}
+.loginInput .ant-input-affix-wrapper .ant-input-prefix {
+    display: none;
+}
+.btn-login.ant-btn {
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    background:#e60012;
+    margin:0 !important;
+    border: none;
+}
+
+/*ICON*/
+.icon {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height:24px;
+    z-index: 998;
+}
+.icon-user {
+    top:10px;
+    left:10px;
+    background: url('../../../static/images/user.png');
+}
+.icon-password {
+    top:10px;
+    left:10px;
+    background: url('../../../static/images/password.png');
+}
+
+/*选中*/
+.loginInput .ant-checkbox-inner,.loginInput form input[type="checkbox"] {
+    width: 20px;
+    height:18px;
+}
+.loginInput .ant-checkbox-checked .ant-checkbox-inner:after {
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+}
+.loginInput .ant-checkbox + span {
+    font-size:16px;
+    color: #666666;
+}
+/*验证码*/
+.img-normal,.img-allow {
+    width: 82px;
+    height: 42px;
+    display: block;
+}
+/*.address{*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+/*}*/
+/*.ant-modal-footer{*/
+    /*position: absolute;*/
+    /*top: 90px;*/
+    /*right: 0;*/
+
+/*}*/
+
+/*App下载*/
+.go-top{position: fixed;bottom: 40px;right: 0px;width: 46px;z-index: 999;}
+.go-top a{display: block;width: 46px;height: 46px;margin-bottom: 10px;background-image: url(../../../static/images/go-top.png?);}
+.go-top a:last-child{margin-bottom: 0;}
+.go-top .go{background-position: 0 -150px;}
+.go-top .go:hover{background-position: 0 -250px;}
+.go-top .uc-2vm{background-position: 0 0;}
+.go-top .uc-2vm:hover{background-position: 0 -350px;}
+.go-top .uc-2vm-pop{
+    position: absolute;right: 60px;top: -500px;
+    width: 240px;box-shadow: 0px 1px 4px rgba(0,0,0,.1);
+    background: #fff;
+
+}
+.go-top .uc-2vm-pop .title-2wm{font-size: 14px; margin: 10px 20px;}
+.go-top .uc-2vm-pop .logo-2wm-box{position: relative;}

@@ -1,0 +1,74 @@
+.App .sider-trigger {
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #404040;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.App .sider-trigger:hover{
+    color: #108ee9;
+}
+/*修改*/
+.App .ant-layout-sider.ant-layout-sider-collapsed {
+    padding-top:25px;
+    overflow: visible;
+}
+.ant-layout-sider.ant-layout-sider-collapsed .index.logo {
+    width: 34px;
+    height: 34px;
+    background: url("../../../static/images/logo_coll.png") no-repeat;
+    margin: 0 13px 41px;
+}
+
+.App .ant-layout-sider {
+    background: #041c2c;
+    padding-top: 16px;
+    overflow: auto;
+}
+.App .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    background: #062941;
+}
+.App .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: #041c2c;
+}
+/*选中有问题*/
+.App .ant-menu-dark .ant-menu-submenu-open>div,
+.App .ant-menu-dark .ant-menu-submenu-active{
+    background: rgba(255,255,255,.08);
+}
+.App .ant-menu .ant-menu-dark ant-menu-submenu-title:hover {
+    background: inherit;
+}
+
+.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-sub.ant-menu-inline > .ant-menu-item,
+.ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    line-height: 53px;
+    height: 53px;
+}
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+    font-size:16px;
+}
+.App .ant-menu-submenu-inline > .ant-menu-submenu-title:after {
+    font-size:25px;
+}
+
+.App .ant-menu-submenu-inline > .ant-menu-submenu-title:after {
+    transform: scale(0.66666667) rotate(-90deg);
+}
+.App .ant-menu-submenu-open.ant-menu-submenu-inline > .ant-menu-submenu-title:after {
+    transform: scale(0.66666667) rotate(0deg);
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background: #e60012;
+}

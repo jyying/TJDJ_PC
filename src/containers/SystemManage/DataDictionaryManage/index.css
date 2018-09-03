@@ -1,0 +1,34 @@
+.input_style_change .ant-form-explain{
+    position: absolute;
+}
+.input_style_change .ant-row div.ant-col-8:nth-child(2) {
+    width: 443px;
+    margin-left: 106px;
+}
+span.text-pisition {
+    position: relative;
+    top: -23px;
+    left: -39px;
+    color: black;
+}
+span.start-date-style.ant-calendar-picker>div input {
+    width: 405px;
+}
+span.start-date-style.ant-calendar-picker>div {
+    margin-left: 106px;
+}
+span.end-date-style.ant-calendar-picker>div input {
+    width: 405px;
+}
+span.end-date-style.ant-calendar-picker>div {
+    margin-left: 106px;
+}
+span.date-text-pisition {
+    position: relative;
+    top: -23px;
+    left: 44px;
+    color: black;
+}
+a.delete {
+    margin-left: 5px;
+}
